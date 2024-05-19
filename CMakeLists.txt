@@ -17,4 +17,6 @@ add_executable(untitled11 main.c
         libs/data_structures/unordered_array_set/unordered_array_set.c
         libs/data_structures/vector/vector.c
         libs/data_structures/vectorVoid/vectorVoid.c
-        libs/algorithms/tasks/fill_matrix.h)
+        libs/algorithms/tasks/fill_matrix.h
+        libs/algorithms/tasks/game_life.h
+)
