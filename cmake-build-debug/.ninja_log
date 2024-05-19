@@ -1,0 +1,12 @@
+# ninja log v5
+3	64	7378333171099534	CMakeFiles/untitled11.dir/libs/algorithms/algorithm.c.obj	3fdad28e5bfcaa96
+1	334	7378333173797867	CMakeFiles/untitled11.dir/main.c.obj	add327a91e69fd31
+4	336	7378333173817867	CMakeFiles/untitled11.dir/libs/algorithms/array/array.c.obj	e3917cbca1b86dc8
+5	348	7378333173937780	CMakeFiles/untitled11.dir/libs/data_structures/string/string_.c.obj	4df3b56b5737a3b4
+65	349	7378333173947774	CMakeFiles/untitled11.dir/libs/data_structures/ordered_array_set/ordered_array_set.c.obj	97afa604b337aaa6
+5	350	7378333173957767	CMakeFiles/untitled11.dir/libs/data_structures/matrix/matrix.c.obj	b85f3c1a45efa4d3
+6	355	7378333174007736	CMakeFiles/untitled11.dir/libs/data_structures/bitset/bitset.c.obj	219818b3983af540
+334	412	7378333174587380	CMakeFiles/untitled11.dir/libs/data_structures/vectorVoid/vectorVoid.c.obj	576c1097292e3772
+348	423	7378333174697308	CMakeFiles/untitled11.dir/libs/data_structures/vector/vector.c.obj	6ba7d4649ba992e2
+337	430	7378333174777265	CMakeFiles/untitled11.dir/libs/data_structures/unordered_array_set/unordered_array_set.c.obj	8ebbbff7f5068da3
+430	785	7378333178246421	untitled11.exe	3c8ede6008fa29e6
