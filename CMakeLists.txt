@@ -24,4 +24,5 @@ add_executable(untitled11 main.c
         libs/algorithms/tasks/get_submatrix.h
         libs/algorithms/tasks/generate_numbers.h
         libs/algorithms/tasks/get_binary_tree.h
+        libs/algorithms/tasks/rearrange_string.h
 )

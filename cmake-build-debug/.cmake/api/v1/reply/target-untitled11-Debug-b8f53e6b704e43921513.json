@@ -124,7 +124,8 @@
 				17,
 				18,
 				19,
-				20
+				20,
+				21
 			]
 		}
 	],
@@ -243,6 +244,11 @@
 		{
 			"backtrace" : 1,
 			"path" : "libs/algorithms/tasks/get_binary_tree.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libs/algorithms/tasks/rearrange_string.h",
 			"sourceGroupIndex" : 1
 		}
 	],
