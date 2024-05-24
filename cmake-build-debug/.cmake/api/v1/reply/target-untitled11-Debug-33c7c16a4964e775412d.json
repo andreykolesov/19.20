@@ -121,7 +121,8 @@
 				14,
 				15,
 				16,
-				17
+				17,
+				18
 			]
 		}
 	],
@@ -225,6 +226,11 @@
 		{
 			"backtrace" : 1,
 			"path" : "libs/algorithms/tasks/get_domains.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libs/algorithms/tasks/get_submatrix.h",
 			"sourceGroupIndex" : 1
 		}
 	],

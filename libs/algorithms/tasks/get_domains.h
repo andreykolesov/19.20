@@ -20,7 +20,7 @@ typedef struct domains {
     size_t size;
 } domains;
 
-int getWordToDot(char* begin_search, WordDescriptor *word) {
+int getWordToDot(char *begin_search, WordDescriptor *word) {
     word->begin = findNonSpace(begin_search);
     if (*word->begin == '\0')
         return false;
@@ -34,16 +34,17 @@ int getWordToDot(char* begin_search, WordDescriptor *word) {
     return true;
 }
 
-void push_domain_in_domains(domains* ds, domain* d) {
+void push_domain_in_domains(domains *ds, domain *d) {
     ds->data[ds->size].amount = d->amount;
     copy(d->name, d->name + strlen_(d->name) + 1, ds->data[ds->size].name);
     ds->size++;
 }
 
-void merge_equal_domains(domains* ds) {
+void merge_equal_domains(domains *ds) {
     for (int i = 0; i < ds->size; i++)
         for (int j = i + 1; j < ds->size; j++) {
-            if (strcmp_(ds->data[i].name, ds->data[j].name) == 0 && ds->data[i].amount >= 0 && ds->data[j].amount >= 0) {
+            if (strcmp_(ds->data[i].name, ds->data[j].name) == 0 && ds->data[i].amount >= 0 &&
+                ds->data[j].amount >= 0) {
                 ds->data[i].amount += ds->data[j].amount;
                 ds->data[j].amount = -1;
             }
@@ -51,8 +52,8 @@ void merge_equal_domains(domains* ds) {
         }
 }
 
-void getDomains(char* s, domains* ds) {
-    char* read_ptr = s;
+void getDomains(char *s, domains *ds) {
+    char *read_ptr = s;
 
     WordDescriptor amount_as_text, name_domain;
     getWordWithoutSpace(read_ptr, &amount_as_text);
@@ -82,7 +83,7 @@ void getDomains(char* s, domains* ds) {
     for (int i = 0; i < _bag.size; i++) {
         domain d = {.amount = amount};
 
-        char* begin = d.name;
+        char *begin = d.name;
         begin = copy(_bag.words[i].begin, _bag.words[i].end + 1, begin);
 
         for (int j = i + 1; j < _bag.size; j++)
@@ -94,8 +95,8 @@ void getDomains(char* s, domains* ds) {
     freeBag(&_bag);
 }
 
-void getDomainsInFile(const char* filename) {
-    FILE* file = fopen(filename, "r");
+void getDomainsInFile(const char *filename) {
+    FILE *file = fopen(filename, "r");
 
     domains ds = {.size = 0};
 
@@ -121,7 +122,7 @@ void getDomainsInFile(const char* filename) {
 void test_getDomainsInFile_1_empty_file() {
     const char filename[] = "C:\\Users\\Andrey\\Desktop\\19.20\\task_4_test_1";
 
-    FILE* file = fopen(filename, "w");
+    FILE *file = fopen(filename, "w");
     fclose(file);
 
     getDomainsInFile(filename);
@@ -140,7 +141,7 @@ void test_getDomainsInFile_1_empty_file() {
 void test_getDomainsInFile_2_one_domain() {
     const char filename[] = "C:\\Users\\Andrey\\Desktop\\19.20\\task_4_test_2";
 
-    FILE* file = fopen(filename, "w");
+    FILE *file = fopen(filename, "w");
 
     char s[100] = "900 discuss.codeforces.com";
     fprintf(file, "%s\n", s);
@@ -169,7 +170,7 @@ void test_getDomainsInFile_2_one_domain() {
 void test_getDomainsInFile_3_more_domain() {
     const char filename[] = "C:\\Users\\Andrey\\Desktop\\19.20\\task_4_test_3";
 
-    FILE* file = fopen(filename, "w");
+    FILE *file = fopen(filename, "w");
 
     char s1[100] = "900 discuss.codeforces.com";
     char s2[100] = "69 mail.com";
