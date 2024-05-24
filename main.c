@@ -3,6 +3,7 @@
 #include "libs/algorithms/tasks/median_filter.h"
 #include "libs/algorithms/tasks/get_domains.h"
 #include "libs/algorithms/tasks/get_submatrix.h"
+#include "libs/algorithms/tasks/generate_numbers.h"
 
 void test() {
     test_fillMatrix();
@@ -10,6 +11,7 @@ void test() {
     test_medianFilter();
     test_getDomainsInFile();
     test_getSubmatrix();
+    test_generateNumbers();
 }
 
 int main() {

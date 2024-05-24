@@ -22,4 +22,5 @@ add_executable(untitled11 main.c
         libs/algorithms/tasks/median_filter.h
         libs/algorithms/tasks/get_domains.h
         libs/algorithms/tasks/get_submatrix.h
+        libs/algorithms/tasks/generate_numbers.h
 )
