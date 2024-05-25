@@ -25,4 +25,6 @@ add_executable(untitled11 main.c
         libs/algorithms/tasks/generate_numbers.h
         libs/algorithms/tasks/get_binary_tree.h
         libs/algorithms/tasks/rearrange_string.h
+        libs/algorithms/tasks/numbers_less_than_n.c
+        libs/algorithms/tasks/portions_of_lines.c
 )

@@ -109,6 +109,18 @@ build CMakeFiles/untitled11.dir/libs/data_structures/vectorVoid/vectorVoid.c.obj
   OBJECT_DIR = CMakeFiles\untitled11.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled11.dir\libs\data_structures\vectorVoid
 
+build CMakeFiles/untitled11.dir/libs/algorithms/tasks/numbers_less_than_n.c.obj: C_COMPILER__untitled11_unscanned_Debug E$:/untitled11/libs/algorithms/tasks/numbers_less_than_n.c || cmake_object_order_depends_target_untitled11
+  DEP_FILE = CMakeFiles\untitled11.dir\libs\algorithms\tasks\numbers_less_than_n.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\untitled11.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled11.dir\libs\algorithms\tasks
+
+build CMakeFiles/untitled11.dir/libs/algorithms/tasks/portions_of_lines.c.obj: C_COMPILER__untitled11_unscanned_Debug E$:/untitled11/libs/algorithms/tasks/portions_of_lines.c || cmake_object_order_depends_target_untitled11
+  DEP_FILE = CMakeFiles\untitled11.dir\libs\algorithms\tasks\portions_of_lines.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\untitled11.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled11.dir\libs\algorithms\tasks
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target untitled11
@@ -117,7 +129,7 @@ build CMakeFiles/untitled11.dir/libs/data_structures/vectorVoid/vectorVoid.c.obj
 #############################################
 # Link the executable untitled11.exe
 
-build untitled11.exe: C_EXECUTABLE_LINKER__untitled11_Debug CMakeFiles/untitled11.dir/main.c.obj CMakeFiles/untitled11.dir/libs/algorithms/array/array.c.obj CMakeFiles/untitled11.dir/libs/algorithms/algorithm.c.obj CMakeFiles/untitled11.dir/libs/data_structures/bitset/bitset.c.obj CMakeFiles/untitled11.dir/libs/data_structures/matrix/matrix.c.obj CMakeFiles/untitled11.dir/libs/data_structures/ordered_array_set/ordered_array_set.c.obj CMakeFiles/untitled11.dir/libs/data_structures/string/string_.c.obj CMakeFiles/untitled11.dir/libs/data_structures/unordered_array_set/unordered_array_set.c.obj CMakeFiles/untitled11.dir/libs/data_structures/vector/vector.c.obj CMakeFiles/untitled11.dir/libs/data_structures/vectorVoid/vectorVoid.c.obj
+build untitled11.exe: C_EXECUTABLE_LINKER__untitled11_Debug CMakeFiles/untitled11.dir/main.c.obj CMakeFiles/untitled11.dir/libs/algorithms/array/array.c.obj CMakeFiles/untitled11.dir/libs/algorithms/algorithm.c.obj CMakeFiles/untitled11.dir/libs/data_structures/bitset/bitset.c.obj CMakeFiles/untitled11.dir/libs/data_structures/matrix/matrix.c.obj CMakeFiles/untitled11.dir/libs/data_structures/ordered_array_set/ordered_array_set.c.obj CMakeFiles/untitled11.dir/libs/data_structures/string/string_.c.obj CMakeFiles/untitled11.dir/libs/data_structures/unordered_array_set/unordered_array_set.c.obj CMakeFiles/untitled11.dir/libs/data_structures/vector/vector.c.obj CMakeFiles/untitled11.dir/libs/data_structures/vectorVoid/vectorVoid.c.obj CMakeFiles/untitled11.dir/libs/algorithms/tasks/numbers_less_than_n.c.obj CMakeFiles/untitled11.dir/libs/algorithms/tasks/portions_of_lines.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\untitled11.dir
