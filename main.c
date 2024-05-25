@@ -6,6 +6,7 @@
 #include "libs/algorithms/tasks/generate_numbers.h"
 #include "libs/algorithms/tasks/get_binary_tree.h"
 #include "libs/algorithms/tasks/rearrange_string.h"
+#include "libs/algorithms/tasks/auto_fill.h"
 
 void test() {
     test_fillMatrix();
@@ -16,6 +17,7 @@ void test() {
     test_generateNumbers();
     test_generateTree();
     test_rearrangeStringInFile();
+    test_autoFill();
 }
 
 int main() {

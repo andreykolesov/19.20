@@ -223,3 +223,21 @@ bool isWordEqual(WordDescriptor word1, WordDescriptor word2){
 
     return true;
 }
+
+bool isSubWord(WordDescriptor word1, WordDescriptor word2) {
+    char* begin1 = word1.begin;
+    char* begin2 = word2.begin;
+
+    while (begin1 <= word1.end) {
+        if (*begin1 != *begin2)
+            return false;
+
+        begin1++;
+        begin2++;
+    }
+
+    if (word1.end - begin1 > 0)
+        return false;
+
+    return true;
+}

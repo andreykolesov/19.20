@@ -103,4 +103,6 @@ void freeBag(BagOfWords *bag);
 // возвращает true, если слова равны, иначе false
 bool isWordEqual(WordDescriptor word1, WordDescriptor word2);
 
+bool isSubWord(WordDescriptor word1, WordDescriptor word2);
+
 #endif
